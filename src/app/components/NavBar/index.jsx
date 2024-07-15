@@ -1,5 +1,5 @@
-function NavBar() {
-    return (<div></div>);
-}
+import React from 'react';
 
-export default NavBar;
+export default function NavBar() {
+  return (<div>'hola como esta' </div>)
+}
