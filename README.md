@@ -14,6 +14,16 @@ pnpm dev
 bun dev
 ```
 
+
+## Proceso de git flow
+
+- crear rama en azure devops
+- git checkout -b <nombre de la rama>
+- luego de realizar un avanza grande o terminar la funcionalidad
+- git commit -m "tag/description"
+- git push origin HEAD
+- realizar pull request
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
